@@ -4,15 +4,16 @@ ZMK firware for my wireless Corne split keyboard with nice!nano controllers.
 
 ## Keymaps
 
-![layer 0](./screenshots/zmk-l0.png)
+Note: I'm using ZMK together with Karabiner-Elements to customize my keyboards and shortcuts.
+I have another repo for my Karabiner-Elements here: [armno/karabiner](https://github.com/armno/karabiner)
 
-![layer 1](./screenshots/zmk-l1.png)
+![layer 0](./screenshots/l0.png)
 
-![layer 2](./screenshots/zmk-l2.png)
+![layer 1](./screenshots/l1.png)
 
-![layer 3](./screenshots/zmk-l3.png)
+![layer 2](./screenshots/l2.png)
 
-Steps to update the keymaps (which I always forget).
+Steps to update the keymaps (I always forget these).
 
 - Make changes in `corne.keymap` using [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) and push to github
 - Wait for [GitHub Actions](https://github.com/armno/zmk-config/actions) to finish the build. Then download the artifacts.

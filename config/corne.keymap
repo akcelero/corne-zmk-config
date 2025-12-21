@@ -139,19 +139,19 @@
 
         default_macos {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E             &kp R              &kp T            &kp Y      &kp U               &kp I      &kp O    &kp P          &kp MINUS
-&kp GRAVE   &kp A  &kp S  &kp D             &hml LEFT_SHIFT F  &kp G            &kp H      &hmr RIGHT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&kp TAB     &kp Z  &kp X  &kp C             &kp V              &kp B            &kp N      &kp M               &kp COMMA  &kp DOT  &kp FSLH       &kp BACKSLASH
-                          &kp LEFT_COMMAND  &mo 1              &kp BACKSPACE    &kp SPACE  &kp RIGHT_CONTROL   &mo 1
+&kp ESCAPE  &kp Q  &kp W  &kp E       &kp R              &kp T            &kp Y      &kp U               &kp I      &kp O    &kp P          &kp MINUS
+&kp GRAVE   &kp A  &kp S  &kp D       &hml LEFT_SHIFT F  &kp G            &kp H      &hmr RIGHT_SHIFT J  &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&kp TAB     &kp Z  &kp X  &kp C       &kp V              &kp B            &kp N      &kp M               &kp COMMA  &kp DOT  &kp FSLH       &kp BACKSLASH
+                          &kp ESCAPE  &kp LEFT_COMMAND   &kp BACKSPACE    &kp SPACE  &mo 2               &mo 1
             >;
         };
 
         fn_layer {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN       &kp POUND          &kp DOLLAR       &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans            &trans             &trans           &trans         &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT             &trans                 &trans
-&trans  &kp LEFT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans         &trans          &kp EQUAL      &kp PLUS      &kp BACKSLASH         &kp PIPE               &trans
-                                           &mo 3              &trans           &trans         &kp ENTER       &trans         &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN       &kp POUND          &kp DOLLAR        &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans           &trans            &trans             &trans            &trans         &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT             &trans                 &trans
+&trans  &kp LEFT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE   &trans         &trans          &kp EQUAL      &kp PLUS      &kp BACKSLASH         &kp PIPE               &trans
+                                           &mo 3              &kp LEFT_CONTROL  &kp ENTER      &kp ENTER       &trans         &trans
             >;
         };
 
@@ -167,7 +167,7 @@
         BT {
             bindings = <
 &trans        &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans
-&tog 0        &tog 0        &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &sys_reset    &sys_reset  &trans  &trans  &trans  &trans  &trans
                                           &trans        &trans        &trans        &trans      &trans  &trans
             >;
